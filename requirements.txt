@@ -1,0 +1,4 @@
+nbdev
+numpy
+matplotlib
+nbformat
