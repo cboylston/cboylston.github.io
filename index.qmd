@@ -16,7 +16,7 @@ For a demonstration of a line plot on a polar axis, see @fig-polar.
 import numpy as np
 import matplotlib.pyplot as plt
 
-r = np.arange(0, 2, 0.01)
+r = np.arange(0, 2, 0.1)
 theta = 2 * np.pi * r
 fig, ax = plt.subplots(
   subplot_kw = {'projection': 'polar'} 
